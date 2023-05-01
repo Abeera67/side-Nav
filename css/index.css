@@ -1,14 +1,56 @@
-.my-nav{
+#speedometer .wrapper {
+  width: 500px;
+  height: 250px;
+  border: 1px solid rgb(0, 0, 0);
+  border-top-left-radius: 360px;
+    border-top-right-radius: 360px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 10%;
+}
+
+#speedometer .wrapper .indicator-wrapper {
   position: absolute;
-  z-index: 10;
+  left: 10%;
+  top: 20%;
+  width: 80%;
+  height: 80%;
+  border-top-left-radius: 360px;
+  border-top-right-radius: 360px;
+  background-color: white;
+  z-index: 400;
+}
+
+#speedometer .wrapper .bar {
   width: 100%;
-  }
-  
-  .carousel-item {
-    height: 100vh;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }  
+  height: 100%;
+  position: absolute;
+  transform-origin: bottom center;
+}
+
+#speedometer .wrapper .bar-1 {
+  top: 0;
+  left: 0;
+  z-index: 200;
+  transform: rotate(-125deg);
+  /* background-color: rgb(114, 114, 238); */
+  background-color: rgb(238, 6, 6);
+}
+
+#speedometer .wrapper .bar-2 {
+  top: 0;
+  right: 0;
+  z-index: 150;
+  transform: rotate(-60deg);
+  /* background-color: rgb(69, 69, 204); */
+  background-color: rgb(247, 231, 6);
+}
+
+#speedometer .wrapper .bar-3 {
+  top: 0;
+  left: 0;
+  z-index: 100;
+  transform: rotate(0deg);
+  /* background-color: rgb(40, 40, 180); */
+  background-color:rgb(31, 150, 1);
+}
