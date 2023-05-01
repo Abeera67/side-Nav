@@ -54,3 +54,18 @@
   /* background-color: rgb(40, 40, 180); */
   background-color:rgb(31, 150, 1);
 }
+.heading-1{
+  margin-top: 5%;
+  padding-top: 5%;
+}
+.btn{
+  width: 15%;
+  background-color: #757575;
+  color: white; /* Change to your desired text color */
+  padding: 10px 20px; /* Change to your desired padding */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; /* Change to your desired font size */
+  border: none
+}
